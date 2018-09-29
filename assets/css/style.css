@@ -1,0 +1,325 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Reset----------------------------------------------------------------------------------------*/
+html {
+    height: 100%;
+}
+
+
+.headerSection,
+.mainSection,
+.footerSection,
+.mainSectionFolio{
+    
+    width: 100%;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    
+}
+
+#logo{
+    /*border: 2px solid palevioletred;*/
+    width: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 240px;
+    margin-bottom: 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+#nav{
+  /* border: 2px solid palevioletred;*/
+    width: 44%; 
+    margin-left: 30px;
+    display: inline-block;
+    text-align: right;
+    
+}
+
+a{
+    color: #777777;
+    text-decoration: none;
+    word-spacing: 9px;
+
+}
+
+a:hover{
+    color:#4aaaa5;
+}
+.mainSection{
+     /*border: 2px solid orangered;*/
+    background-image: url(".../assets/images/extraClean.png");
+    border-top: 5px solid #cccccc;
+    /*border-bottom: 5px solid #4aaaa5;*/
+    /*padding-bottom: 100px;*/
+   
+}
+
+#main{
+   /* border: 1px solid  blue;*/
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 50px; 
+    padding-bottom: 100px;
+  
+}
+
+#sectionName{
+  /*border: 2px solid red;*/
+    padding-top:  5px;
+    padding-bottom: 5px;
+ 
+}
+
+#name{
+    /*border: 2px solid greenyellow;*/
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4aaaa5;
+
+}
+hr{
+    width: 900px;
+    font-size:10px;
+    color: #dddddd;
+}
+
+#mainBorder{
+    background-color: white;
+    border: 2px solid #dddddd;
+    padding-bottom: 43px;
+}
+
+
+#img{
+    width: 187px;
+    height: 205px;
+    padding: 20px 20px 20px 44px;
+    float: left;
+}
+
+p{
+    text-align: justify;
+    color: #777777;
+    line-height: 30px;  
+}
+#text1{
+
+    padding: 10px 36px 10px 4px;
+    
+    
+}
+
+#text2{
+    clear: both;
+    overflow: auto;
+    padding: 0 30px 20px 44px;
+    
+    
+}
+
+
+.footerSection{
+    /*border: 2px solid red;*/
+
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    color: white;
+    text-align: center;
+    margin:0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+
+
+/* specific to contact.html----------------------------------------------------------------------------------------*/
+
+
+form{
+    margin: 0 20px 0 20px;
+    padding: 0 5px 0 5px
+}
+
+input,
+label,
+textarea{
+    width: 100%;
+}
+
+input
+ {
+    width: 900px;
+    margin: 9px;
+    padding: 2px;
+    border: 1px solid #dddddd;
+    height: 18px;
+    color:#777777;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+label {
+    display: inline-block;
+    font-size: 16px;
+    color: #cccccc;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+textarea{
+    width: 900px;;
+    margin: 9px;
+    padding: 0px; 
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+formDiv{
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+}
+
+#submit{
+    display: inline-block;
+    padding: 15px 28px 15px 28px;
+    margin-left: 32px;
+    margin-bottom: 20px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/* specific to portfolio.html----------------------------------------------------------------------------------------*/
+
+.mainSectionFolio{
+  /*border: 2px solid orangered;*/
+   background-image: url(".../assets/images/extraClean.png");
+   border-top: 5px solid #cccccc;
+   padding-bottom: 0x;
+   margin:0;
+}
+
+#mainFolio{
+    /*border: 1px solid  blue;*/
+     width: 960px; 
+     margin: 0 auto 0 auto;
+     padding-bottom: 5px; 
+ }
+ 
+ #sectionNameFolio{
+     /*border: 2px solid red;*/
+     padding-top:  5px;
+     padding-bottom: 5px;
+  
+ }
+
+.mainContainer{
+/*border: 1px solid  blue;*/
+width: 500px;
+/*height: 200px;*/
+display: inline-block;
+
+}
+
+
+.portPic{
+    width: 207px;
+    height: 230px;
+}
+ .portContainer {
+   /* border: 1px solid  blue;*/
+    width: 207px;
+    height: 230px;
+    margin-bottom: 15px;
+    margin-left:30px;
+    position:relative;
+    display: inline-block;
+  }
+  
+  .portLabel {
+    /*border: 1px solid  greenyellow;*/
+    width: 162px;
+    padding: 10px 23px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color:white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    bottom: 15px;
+  }
+
+  .portLabel a{
+      color: white;
+      font-size: 16px;
+      word-spacing: 2px;
+  }
+
+ 
